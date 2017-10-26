@@ -1,5 +1,8 @@
 header{
-
+  background: #528BFF;
+  height: 100px;
+  border-radius: 70px;
+  padding-top: 20px;
 }
 select{
   font-size: 16px;

@@ -1,4 +1,6 @@
 <?php
+
+
   $note = 0;
     if( $_GET['q1'] == "true"){
       $note = $note + 1;
