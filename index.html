@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>QUIZZ Basket-Ball</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+    <h1>Bonjour et bienvenue sur mon quizz sur le theme du Basket-Ball</h1>
+  </header>
+    <form method="get" action="script.php">
+    <p><b>ATTENTION !!!</b> le derniere question vaut 10 points !!!!</p>
+    <p>1 - En quelle année a été inventé le basket-ball ? <em>1 point</em> </p>
+      <input type="radio" name="q1" value="false"><label for="q1">52 av. JC </label>
+      <input type="radio" name="q1" value="false"><label for="q1">1758</label>
+      <input type="radio" name="q1" value="true"><label for="q1">1891</label>
+      <input type="radio" name="q1" value="false"><label for="q1">1925</label>
+    <p>2 - Qui a été élu MVP de la saison régulière ? (2005-2006) <em>1 point</em></p>
+      <input type="radio" name="q2" value="true"><label for="q2">Steve Nash</label>
+      <input type="radio" name="q2" value="false"><label for="q2">Tony Parker</label>
+      <input type="radio" name="q2" value="false"><label for="q2">Kobe Bryant</label>
+      <input type="radio" name="q2" value="false"><label for="q2">Dwayne Wade</label>
+    <p>3 - Qui a été élu MVP de la finale des Playoffs ? (2006-2007) <em>1 point</em></p>
+      <input type="radio" name="q3" value="false"><label for="q3">Lebron James</label>
+      <input type="radio" name="q3" value="true"><label for="q3">Tony Parker</label>
+      <input type="radio" name="q3" value="false"><label for="q3">Tim Duncan</label>
+      <input type="radio" name="q3" value="false"><label for="q3">Manu Ginobili</label>
+    <p>4 - Qui a inventé le basket ? <em>1 point</em></p>
+      <input type="radio" name="q4" value="false"><label for="q4">Numéro Bis</label>
+      <input type="radio" name="q4" value="false"><label for="q4">Mr.Basket-ball</label>
+      <input type="radio" name="q4" value="false"><label for="q4">Lebron james</label>
+      <input type="radio" name="q4" value="true"><label for="q4">James Naismith</label>
+    <p>5 - Combien de temps a-t-on le droit de rester dans la raquette ? <em>1 point</em></p>
+      <input type="radio" name="q5" value="false"><label for="q5">2s</label>
+      <input type="radio" name="q5" value="true"><label for="q5">3s</label>
+      <input type="radio" name="q5" value="false"><label for="q5">4s</label>
+      <input type="radio" name="q5" value="false"><label for="q5">5s</label>
+    <p>
+      <label for="q6">6 - Combien y a-t-il de joueurs sur un terrain ? <em>1 point</em></label><br>
+        <select  name="q6">
+          <option value="false">4</option>
+          <option value="false">5</option>
+          <option value="true">10</option>
+          <option value="false">20</option>
+        </select>
+    </p>
+
+    <label for="q7">7 - Quel joueur n'est pas un joueur de basket-ball ? <em>1 point</em></label><br>
+        <select  name="q7">
+          <option value="false">Ben Wallace</option>
+          <option value="true">Phil Mickelson</option>
+          <option value="false">Sebastien Lafargue</option>
+          <option value="false">Ricardo Greer</option>
+        </select>
+  </p>
+    <p>
+      <label for="q8">8 - Quel a été le score en Playoff entre Phoenix et les Lakers ? <em>1 point</em></label><br>
+      <select class="" name="q8">
+        <option value="false">4-1 pour les Lakers</option>
+        <option value="true">4-1 pour Phoenix</option>
+        <option value="false">3-2 pour Phoenix</option>
+        <option value="false">3-2 pour les Lakers</option>
+      </select>
+    </p>
+    <p>
+        <label for="q9">9 - En quelle année fut introduite la ligne des tirs à 3 points ? <em>1 point</em></label><br>
+        <select class="" name="q9">
+        <option value="false">1758</option>
+        <option value="false">1891</option>
+        <option value="false">1947</option>
+        <option value="true">1984</option>
+      </select>
+    </p>
+    <p>
+        <label for="q10">10 -Qui est arrivé premier de la saison régulière Française ? <em>1 point</em></label><br>
+        <select class="" name="q10">
+        <option value="false">ASVEL</option>
+        <option value="false">Le Mans</option>
+        <option value="false">Pau-Orthez</option>
+        <option value="true">Nancy</option>
+      </select>
+    </p>
+    <p>Comment s'apelle le club de basket LYONNAIS ?? <em>10 point</em></p>
+    <small>ATTENTION !! indiquez le club a majuscule</small><br>
+    <input type="text" name="club" value=""><br>
+    <input type="submit" name="resultat"><br>
+    </form>
+  </body>
+</html>
